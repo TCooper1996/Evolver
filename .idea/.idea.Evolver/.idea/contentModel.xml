@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Evolver.1402724196.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AbilityScripts" t="Include">
+          <e p="Ability.cs" t="Include" />
+          <e p="CombatantAbilities.cs" t="Include" />
+          <e p="MovementAbilities.cs" t="Include" />
+        </e>
+        <e p="BehaviorScripts" t="Include">
+          <e p="BulletBehavior.cs" t="Include" />
+          <e p="CombatantBehaviors" t="Include">
+            <e p="CombatantBehavior.cs" t="Include" />
+            <e p="RecoveringCombatant.cs" t="Include" />
+          </e>
+          <e p="Entity.cs" t="Include" />
+          <e p="IBulletBehavior.cs" t="Include" />
+          <e p="MovementBehaviors" t="Include">
+            <e p="IMovementBehavior.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="TurretMovementBehavior.cs" t="Include" />
+          </e>
+          <e p="ProjectileBehaviors" t="Include">
+            <e p="BurstBulletBehavior.cs" t="Include" />
+            <e p="LandmineBehavior.cs" t="Include" />
+            <e p="LandmineExplosion.cs" t="Include" />
+            <e p="ProjectileScript.cs" t="Include" />
+            <e p="RapidBulletBehavior.cs" t="Include" />
+            <e p="SniperBulletBehavior.cs" t="Include" />
+          </e>
+          <e p="ShooterBehaviors" t="Include">
+            <e p="BurstShooterBehavior.cs" t="Include" />
+            <e p="LandmineShooterBehavior.cs" t="Include" />
+            <e p="RapidShooterBehavior.cs" t="Include" />
+            <e p="Reloadable.cs" t="Include" />
+            <e p="ShooterBehavior.cs" t="Include" />
+            <e p="SniperShooterBehavior.cs" t="Include" />
+          </e>
+        </e>
+        <e p="EditorScripts" t="Include">
+          <e p="ShooterEditor.cs" t="Include" />
+        </e>
+        <e p="EntityScripts" t="Include">
+          <e p="BoundaryScript.cs" t="Include" />
+          <e p="BulletControllerScript.cs" t="Include" />
+          <e p="DirectorScript.cs" t="Include" />
+          <e p="EnemyScript.cs" t="Include" />
+          <e p="MacGuffinScript.cs" t="Include" />
+          <e p="ModelScript.cs" t="Include" />
+          <e p="PlayerScript.cs" t="Include" />
+        </e>
+        <e p="EntityStandins" t="Include">
+          <e p="EntityEgg.cs" t="Include" />
+        </e>
+        <e p="ExitScript.cs" t="Include" />
+        <e p="GameScripts" t="Include">
+          <e p="MenuScript.cs" t="Include" />
+        </e>
+        <e p="ManagerScripts" t="Include">
+          <e p="CameraScript.cs" t="Include" />
+          <e p="CanvasScript.cs" t="Include" />
+          <e p="ControlsManager.cs" t="Include" />
+          <e p="EnemyInfoScript.cs" t="Include" />
+          <e p="ScoreCanvasScript.cs" t="Include" />
+          <e p="SoundScript.cs" t="Include" />
+          <e p="WorldGenerator.cs" t="Include" />
+        </e>
+        <e p="MapScript.cs" t="Include" />
+        <e p="Packages" t="Include">
+          <e p="MathNet.Numerics.4.9.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="MathNet.Numerics.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="PickupScript.cs" t="Include" />
+        <e p="PlayerControls.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="PopupDamageScript.cs" t="Include" />
+        </e>
+        <e p="UpgradeScript.cs" t="Include" />
+        <e p="Utilities" t="Include">
+          <e p="AnalyticsTracker.cs" t="Include" />
+          <e p="Data.cs" t="Include" />
+          <e p="Target.cs" t="Include" />
+          <e p="UtilityFunctions.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Evolver.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

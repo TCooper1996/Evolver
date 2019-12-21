@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1926415309671961077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5687045301398610397}
+  - component: {fileID: 8766741649490403181}
+  - component: {fileID: 5959038497939351475}
+  - component: {fileID: 4384287975175465582}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5687045301398610397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926415309671961077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.931929, y: 0.96098334, z: -61.4375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &8766741649490403181
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926415309671961077}
+  m_Enabled: 1
+--- !u!82 &5959038497939351475
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926415309671961077}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 957aeaf862aae481895bfbc37033041a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &4384287975175465582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926415309671961077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e330c07e3abf1ef0bbd57d4476ee10d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SniperBullet: {fileID: 8300000, guid: dd16a0bc01b76054ba18327bc3b2570e, type: 3}
+  Item: {fileID: 8300000, guid: 9bedb188d1ac14ed7880810f82f910cb, type: 3}
+  Menu: {fileID: 8300000, guid: 9752a5d2b2f6e435e9cadfcb39c43005, type: 3}
+  NextLevel: {fileID: 8300000, guid: 5eeeee6e34ec34fc99180bf51d59a129, type: 3}
+  Death: {fileID: 8300000, guid: 980db9f37e553489e8b7aa62ca547c2e, type: 3}
+  LandmineBullet: {fileID: 8300000, guid: 54d19db358f5b4cb2addbf3db92d5688, type: 3}
+  Detonation: {fileID: 8300000, guid: fa39499abf23c084db2f930c171bc777, type: 3}
+  ACK: {fileID: 8300000, guid: 311ed1f1bf2aa1847b8f10462f75982f, type: 3}
+  NAK: {fileID: 8300000, guid: b190a8a5f59499f4f9204e64b9a04da9, type: 3}
+  Reload: {fileID: 8300000, guid: d2761fe8a948b7a4ab906d3978012983, type: 3}
+  Impacts:
+  - {fileID: 8300000, guid: ce117b3b30abe407585b01bc4f922bb0, type: 3}
+  - {fileID: 8300000, guid: 1c0421814da1e4506a7ef0ad6780c4fb, type: 3}
+  - {fileID: 8300000, guid: c8ad00e66fb3a4f309fba1653d14b4c6, type: 3}
+  Strucks:
+  - {fileID: 8300000, guid: 6f2c7369a8043470dbaa136a48dbee54, type: 3}
+  - {fileID: 8300000, guid: d013dbbb4e96e47df92bed582d35f956, type: 3}
+  - {fileID: 8300000, guid: 1bd134079a8a24f308ed392d924ea3e8, type: 3}
+  - {fileID: 8300000, guid: 567199e7e047a485f823f8da4af1c661, type: 3}
+  BurstBullets:
+  - {fileID: 8300000, guid: 0d7c62cdbb047984fa3096ab202748b4, type: 3}
+  - {fileID: 8300000, guid: f644087a28da014458c35e870b192f14, type: 3}
+  - {fileID: 8300000, guid: fccc46974bfb74a4498b8793b264e90c, type: 3}
+  RapidBullets:
+  - {fileID: 8300000, guid: 2079ae070501bff4a9bc5095fce40edc, type: 3}
+  - {fileID: 8300000, guid: 903fe38128ab7954cbc37a647437f3a9, type: 3}
+  - {fileID: 8300000, guid: e541dc13526805b46b0875b483590b70, type: 3}

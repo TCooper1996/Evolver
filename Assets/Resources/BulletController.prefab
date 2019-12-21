@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6588981764294128901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8109927710640739098}
+  - component: {fileID: 4822661872928508493}
+  m_Layer: 0
+  m_Name: BulletController
+  m_TagString: BulletController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8109927710640739098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6588981764294128901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4822661872928508493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6588981764294128901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e8ca88cb6dc36758366d2995e907c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sniperBullet: {fileID: 8784769512509867091, guid: 90a8fdad01e57e6b7a2a45a462305de1,
+    type: 3}
+  rapidBullet: {fileID: 6754269410243045690, guid: bd171fd111fceafc6a197d3adab771bd,
+    type: 3}
+  burstBullet: {fileID: 6754269410243045690, guid: bd171fd111fceafc6a197d3adab771bd,
+    type: 3}
+  landmineBullet: {fileID: 619993658757590340, guid: 9184462083e36521aae250658c2099fd,
+    type: 3}
+  landmineShrapnel: {fileID: 1192835456722650377, guid: 52824cd86f0f41aa6b9ae50747b41cc9,
+    type: 3}
