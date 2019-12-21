@@ -13,10 +13,6 @@ namespace GameScripts
 
         public GameObject btnStart;
         public GameObject btnReturn;
-        public void Start()
-        {
-            //Nothing yet
-        }
 
         public void StartGame()
         {

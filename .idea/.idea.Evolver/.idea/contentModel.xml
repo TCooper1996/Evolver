@@ -4,6 +4,7 @@
     <e p="$PROJECT_DIR$/../.Rider2019.3/system/extResources" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$/../.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Evolver.1402724196.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AbilityScripts" t="Include">
@@ -17,6 +18,7 @@
             <e p="CombatantBehavior.cs" t="Include" />
             <e p="RecoveringCombatant.cs" t="Include" />
           </e>
+          <e p="EnemyScript.cs" t="Include" />
           <e p="Entity.cs" t="Include" />
           <e p="IBulletBehavior.cs" t="Include" />
           <e p="MovementBehaviors" t="Include">
@@ -24,6 +26,7 @@
             <e p="PlayerMovement.cs" t="Include" />
             <e p="TurretMovementBehavior.cs" t="Include" />
           </e>
+          <e p="PlayerScript.cs" t="Include" />
           <e p="ProjectileBehaviors" t="Include">
             <e p="BurstBulletBehavior.cs" t="Include" />
             <e p="LandmineBehavior.cs" t="Include" />
@@ -41,17 +44,8 @@
             <e p="SniperShooterBehavior.cs" t="Include" />
           </e>
         </e>
-        <e p="EditorScripts" t="Include">
+        <e p="Editor" t="Include">
           <e p="ShooterEditor.cs" t="Include" />
-        </e>
-        <e p="EntityScripts" t="Include">
-          <e p="BoundaryScript.cs" t="Include" />
-          <e p="BulletControllerScript.cs" t="Include" />
-          <e p="DirectorScript.cs" t="Include" />
-          <e p="EnemyScript.cs" t="Include" />
-          <e p="MacGuffinScript.cs" t="Include" />
-          <e p="ModelScript.cs" t="Include" />
-          <e p="PlayerScript.cs" t="Include" />
         </e>
         <e p="EntityStandins" t="Include">
           <e p="EntityEgg.cs" t="Include" />
@@ -61,10 +55,15 @@
           <e p="MenuScript.cs" t="Include" />
         </e>
         <e p="ManagerScripts" t="Include">
+          <e p="BoundaryScript.cs" t="Include" />
+          <e p="BulletControllerScript.cs" t="Include" />
           <e p="CameraScript.cs" t="Include" />
           <e p="CanvasScript.cs" t="Include" />
           <e p="ControlsManager.cs" t="Include" />
+          <e p="DirectorScript.cs" t="Include" />
           <e p="EnemyInfoScript.cs" t="Include" />
+          <e p="MacGuffinScript.cs" t="Include" />
+          <e p="ModelScript.cs" t="Include" />
           <e p="ScoreCanvasScript.cs" t="Include" />
           <e p="SoundScript.cs" t="Include" />
           <e p="WorldGenerator.cs" t="Include" />

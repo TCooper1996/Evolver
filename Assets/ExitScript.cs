@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
+using BehaviorScripts;
+using ManagerScripts;
 using UnityEngine;
 
 public class ExitScript : MonoBehaviour
@@ -36,23 +37,6 @@ public class ExitScript : MonoBehaviour
                 StartCoroutine(nameof(XCoroutine));
             }
         }
-    }
-
-    private void Update()
-    {
-        /*
-        if (playingXAnimation)
-        {
-            xSprite.color = new Color(1, 0, 0, xAnimationDuration);
-            xAnimationDuration -= Time.deltaTime;
-            if (xAnimationDuration < 0)
-            {
-                chestNotObtainedAnimator.SetActive(false);
-                playingXAnimation = false;
-                xAnimationDuration = 1;
-            }
-        }
-    */
     }
 
     private IEnumerator XCoroutine()

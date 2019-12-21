@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ManagerScripts;
 using UnityEngine;
 using UnityEngine.Serialization;
 using RoomPositionTuple = System.Tuple<System.Tuple<int, int>, UnityEngine.Vector3>;

@@ -2,23 +2,20 @@
 
 namespace ManagerScripts
 {
-    public class CameraScript : MonoBehaviour
+    public class MacGuffinScript : MonoBehaviour
     {
-        private static CameraScript _camera;
-        public static CameraScript camera => _camera;
-
+        [SerializeField]
+        private Animator animiator;
         // Start is called before the first frame update
-        private void Awake()
+        void Start()
         {
-            if (_camera)
+            if (DirectorScript.IsMacGuffinObtained)
             {
                 Destroy(gameObject);
                 return;
             }
-
-            _camera = this;
         }
 
+        // Update is called once per frame
     }
 }
-

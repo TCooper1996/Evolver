@@ -2,7 +2,7 @@ using System;
 using BehaviorScripts;
 using UnityEngine;
 
-namespace EntityScripts
+namespace ManagerScripts
 {
     public class ModelScript : MonoBehaviour
     {

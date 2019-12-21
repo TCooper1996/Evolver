@@ -1,10 +1,9 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Utilities;
 
-namespace GameScripts
+namespace ManagerScripts
 {
     public class ScoreCanvasScript : MonoBehaviour
     {

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using BehaviorScripts;
+using ManagerScripts;
 using UnityEngine;
 using Random = System.Random;
 using RoomPositionTuple = System.Tuple<System.Tuple<int, int>, UnityEngine.Vector3>;

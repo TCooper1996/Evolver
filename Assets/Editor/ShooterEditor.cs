@@ -1,13 +1,12 @@
 using System;
 using BehaviorScripts;
+using ManagerScripts;
 using UnityEditor;
-using UnityEditor.UIElements;
-using UnityEngine;
 
-namespace EditorScripts
+namespace Editor
 {
     [CustomEditor(typeof(ShooterBehavior), true)]
-    public class ShooterEditor : Editor
+    public class ShooterEditor : UnityEditor.Editor
     {
         private SerializedProperty _damageMultiplier;
         private SerializedProperty _attackSpeedMultiplier;
