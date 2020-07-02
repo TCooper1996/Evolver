@@ -10,3 +10,5 @@ At each level, the enemies grow stronger, and in order to stay competitive, the 
 
 A link to a windows compatible binary can be downloaded here:
 https://drive.google.com/file/d/1GYsuyLGo3iitYE1q-u1TySYvUhPi87LA/view?usp=sharing
+## Note
+This game requires a controller to play.
